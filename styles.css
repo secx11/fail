@@ -1,0 +1,48 @@
+.main-header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+}
+
+/* الصف الأول */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* الشعار */
+.logo img {
+  height: 50px;
+}
+
+/* النص */
+.title {
+  text-align: right;
+  font-weight: bold;
+}
+
+.title .sub {
+  font-size: 13px;
+  color: #666;
+}
+
+/* القائمة */
+.nav-bar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.nav-bar button {
+  border: none;
+  background: #f5f5f5;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav-bar button:hover {
+  background: #ddd;
+}
